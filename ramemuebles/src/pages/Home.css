@@ -1,0 +1,62 @@
+/* Estilos para la página de inicio */
+.home {
+    text-align: center;
+    padding: 70px;
+}
+
+.home h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #5f0e5b; /* Color del título */
+}
+
+.home p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.home img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px; /* Agrega esquinas redondeadas a la imagen */
+    box-shadow: 0px 0px 10px rgba(142, 15, 77, 0.2); /* Agrega una sombra suave a la imagen */
+}
+
+/* Estilos para el botón */
+.home button {
+    background-color: #ba99b1; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Agrega una transición suave al cambiar el color de fondo */
+}
+
+.home button:hover {
+    background-color: #f185ec; /* Color de fondo del botón al pasar el mouse por encima */
+}
+
+/* Estilos para las promociones */
+.home .promotions {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.home .promotions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c876aa; /* Color del título de promociones */
+}
+
+.home .promotions ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.home .promotions ul {
+    list-style: none; /* Elimina los puntos al costado de la lista */
+    padding-left: 0;
+}
